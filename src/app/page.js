@@ -1,4 +1,4 @@
-
+import globals from "./globals.css";
 export default function Home() {
   return (
     <div>
