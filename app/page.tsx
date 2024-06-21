@@ -1,5 +1,11 @@
 import React from "react";
+import Nav from "./Nav";
 
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return (
+    <div>
+      <Nav />
+      <h1>Hello, Next.js!</h1>
+    </div>
+  );
 }
